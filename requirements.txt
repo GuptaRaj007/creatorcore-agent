@@ -1,0 +1,16 @@
+transformers>=4.30
+accelerate
+sentence-transformers
+diffusers
+torch           # ensure right CUDA/cpu build for your machine
+safetensors
+moviepy
+streamlit
+sentencepiece
+scipy
+matplotlib
+plotly
+coqui-tts       # optional for better TTS
+pyttsx3         # fallback TTS
+typing_extensions
+trl             # optional (for RL PPO) - only if you plan to use it
